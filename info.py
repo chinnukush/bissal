@@ -19,7 +19,7 @@ BOT_TOKEN = environ.get('BOT_TOKEN', '7508752731:AAGH3VST9egEmwKs-r7I5THK23sjhsu
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7253187871').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/TG_BOTS_UPDATE")
-LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002193397974'))
+LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002170171844'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002447436146 -1001603505179').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Safari:Safari@cluster0.atura.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
