@@ -15,14 +15,14 @@ def is_enabled(value, default):
 #main variabless
 API_ID = int(environ.get('API_ID', '19341831'))
 API_HASH = environ.get('API_HASH', 'd5dd7d867fc35ae9fa59c54e54d218ad')
-BOT_TOKEN = environ.get('BOT_TOKEN', '7264813509:AAEJEUASppIKanAmD6LB7x3iwOftM7BkuVk')
+BOT_TOKEN = environ.get('BOT_TOKEN', '7508752731:AAGH3VST9egEmwKs-r7I5THK23sjhsuvQcE')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7253187871').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/TG_BOTS_UPDATE")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002193397974'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002447436146 -1001603505179').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Akv175:Akv3@cluster0.nm7qk.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Safari:Safari@cluster0.atura.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Safari")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telefiles')
