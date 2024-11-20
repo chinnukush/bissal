@@ -19,13 +19,13 @@ async def link_handler(Mbot, message):
     link = message.matches[0].group(0)
     global headers
     try:
-        m = await message.reply_sticker("CAACAgUAAxkBAAKC7WcMwWmuaygDD-yW-FDBXBXdwEnIAAJ0DgACNtpoVLRXA392COiENgQ")
+        m = await message.reply_sticker("CAACAgIAAxkBAAKK4Wc-AkRJTGFlBE1H9FRSMKi_JWvJAAJVAAOvxlEaZOf88CXpEL82BA")
         url= link.replace("instagram.com","ddinstagram.com")
         url=url.replace("==","%3D%3D")
         if url.endswith("="):
-           dump_file=await message.reply_video(url[:-1],caption="𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝐵𝑦 👉 [@AF_Mhakal]")
+           dump_file=await message.reply_video(url[:-1],caption="𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝐵𝑦 👉 [@TG_BOTS_UPDATE]")
         else:
-            dump_file=await message.reply_video(url,caption="𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝐵𝑦 👉 [@AF_Mhakal]")
+            dump_file=await message.reply_video(url,caption="𝐷𝑜𝑤𝑛𝑙𝑜𝑎𝑑 𝐵𝑦 👉 [@TG_BOTS_UPDATE]")
         if 'dump_file' in locals():
            await dump_file.forward(DUMP_GROUP)
         await m.delete()
@@ -115,5 +115,5 @@ async def link_handler(Mbot, message):
             await m.delete()
             if 'downfile' in locals():
                 os.remove(downfile)
-            await message.reply("<a href='https://t.me/AF_Mhakal'>AF Mhakal</a>")
+            await message.reply("<a href='TG_BOTS_UPDATE'>ʜᴀʀɪ ʙᴏᴛᴢ</a>")
 
