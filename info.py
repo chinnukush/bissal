@@ -18,7 +18,7 @@ API_HASH = environ.get('API_HASH', 'd5dd7d867fc35ae9fa59c54e54d218ad')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7264813509:AAEJEUASppIKanAmD6LB7x3iwOftM7BkuVk')
 
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1076927614 1086049246').split()]
-USERNAME = environ.get('USERNAME', "https://telegram.me/filmcity4youu")
+USERNAME = environ.get('USERNAME', "https://t.me/TG_BOTS_UPDATE")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002193397974'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', 'https://t.me/Filmcity_Request')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002055127272').split()]
