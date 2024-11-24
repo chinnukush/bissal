@@ -111,12 +111,14 @@ User - {}"""
 
 🎁 ʀᴇǫᴜᴇꜱᴛ ᴍꜱɢ - <code>{}</code></b>"""  
     
-    IMDB_TEMPLATE_TXT = """<b>📻 ᴛɪᴛʟᴇ - <a href={url}>{title}</a>
+    IMDB_TEMPLATE_TXT = """
+<b>•────•────────•────•
+📻 ᴛɪᴛʟᴇ - <a href={url}>{title}</a>
 🎭 ɢᴇɴʀᴇs - {genres}
 🎖 ʀᴀᴛɪɴɢ - <a href={url}/ratings>{rating}</a> / 10 (ʙᴀsᴇᴅ ᴏɴ {votes} ᴜsᴇʀ ʀᴀᴛɪɴɢ.)
 📆 ʏᴇᴀʀ - {release_date}
-❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}</b>
-"""
+❗️ ʟᴀɴɢᴜᴀɢᴇ - {languages}
+•────•────────•────•</b>"""
 
     FILE_CAPTION = """<b>[{file_name}](https://t.me/+nDTaoJGRKJcxYmZl)\n\n<b>•────•────────•────•\n📌 ʀᴇǫᴜᴇsᴛ ɢʀᴏᴜᴘ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+feRFjkCs2Sw5OWQ9)\n🎬 ᴍᴏᴠɪᴇs ᴄʜᴀɴɴᴇʟ : [ᴄʟɪᴄᴋ ʜᴇʀᴇ](https://t.me/+5-duw9NzMxswZjY1)\n•────•────────•────•\n\n©️ ᴘᴏᴡᴇʀᴇᴅ ʙʏ : [ʜᴀʀɪ ʙᴏᴛᴢ](https://t.me/TG_BOTS_UPDATE)</b>"</b>
 
