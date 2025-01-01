@@ -22,10 +22,10 @@ USERNAME = environ.get('USERNAME', "https://t.me/TG_BOTS_UPDATE")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002170171844'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002447436146 -1001603505179').split()]
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://Safari:Safari@cluster0.atura.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anikush8310:A6B6HNhCMEtmdGcp@cluster0.ia1r4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Safari")
-COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telefiles')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'safarifiles')
 LOG_API_CHANNEL = int(environ.get('LOG_API_CHANNEL', '-1002238159500'))
 QR_CODE = environ.get('QR_CODE', 'https://envs.sh/AYP.jpg')
 START_IMG = environ.get('START_IMG', 'https://envs.sh/5Hq.jpg')
