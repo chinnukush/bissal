@@ -17,11 +17,11 @@ API_ID = int(environ.get('API_ID', '19341831'))
 API_HASH = environ.get('API_HASH', 'd5dd7d867fc35ae9fa59c54e54d218ad')
 BOT_TOKEN = environ.get('BOT_TOKEN', '7508752731:AAGH3VST9egEmwKs-r7I5THK23sjhsuvQcE')
 
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7253187871').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '7253187871 8075224687').split()]
 USERNAME = environ.get('USERNAME', "https://t.me/TG_BOTS_UPDATE")
 LOG_CHANNEL = int(environ.get('LOG_CHANNEL', '-1002170171844'))
 MOVIE_GROUP_LINK = environ.get('MOVIE_GROUP_LINK', '')
-CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002447436146 -1001603505179').split()]
+CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '-1002515386092 -1002447436146 -1001603505179').split()]
 DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://anikush8310:A6B6HNhCMEtmdGcp@cluster0.ia1r4.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
 DATABASE_NAME = environ.get('DATABASE_NAME', "Safari")
@@ -53,7 +53,7 @@ YEARS = [f'{i}' for i in range(2024 , 2002,-1 )]
 SEASONS = [f'season {i}'for i in range (1 , 23)]
 REF_PREMIUM = 30
 PREMIUM_POINT = 1500
-auth_channel = environ.get('AUTH_CHANNEL', '-1002250501843')
+auth_channel = environ.get('AUTH_CHANNEL', '-1002698579732')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 SUPPORT_GROUP = int(environ.get('SUPPORT_GROUP', '-1001629003283'))
 request_channel = environ.get('REQUEST_CHANNEL', '-1002185647844')
